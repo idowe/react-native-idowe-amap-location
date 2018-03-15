@@ -1,6 +1,6 @@
 {
-  "name": "react-native-smart-amap-location",
-  "version": "1.1.3",
+  "name": "react-native-idowe-amap-location",
+  "version": "0.1.0",
   "description": "A AMap location Library for React Native apps.",
   "main": "AMapLocation.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-component/react-native-smart-amap-location.git"
+    "url": "git+https://github.com/idowe/react-native-idowe-amap-location.git"
   },
   "keywords": [
     "react-native",
@@ -20,7 +20,7 @@
   "author": "HISAME SHIZUMARU",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-native-component/react-native-smart-amap-location/issues"
+    "url": "https://github.com/idowe/react-native-idowe-amap-location/issues"
   },
-  "homepage": "https://github.com/react-native-component/react-native-smart-amap-location#readme"
+  "homepage": "https://github.com/idowe/react-native-idowe-amap-location#readme"
 }

@@ -1,9 +1,9 @@
-# react-native-smart-amap-location
+# react-native-idowe-amap-location
 
-[![npm](https://img.shields.io/npm/v/react-native-smart-amap-location.svg)](https://www.npmjs.com/package/react-native-smart-amap-location)
-[![npm](https://img.shields.io/npm/dm/react-native-smart-amap-location.svg)](https://www.npmjs.com/package/react-native-smart-amap-location)
-[![npm](https://img.shields.io/npm/dt/react-native-smart-amap-location.svg)](https://www.npmjs.com/package/react-native-smart-amap-location)
-[![npm](https://img.shields.io/npm/l/react-native-smart-amap-location.svg)](https://github.com/react-native-component/react-native-smart-amap-location/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/react-native-idowe-amap-location.svg)](https://www.npmjs.com/package/react-native-idowe-amap-location)
+[![npm](https://img.shields.io/npm/dm/react-native-idowe-amap-location.svg)](https://www.npmjs.com/package/react-native-idowe-amap-location)
+[![npm](https://img.shields.io/npm/dt/react-native-idowe-amap-location.svg)](https://www.npmjs.com/package/react-native-idowe-amap-location)
+[![npm](https://img.shields.io/npm/l/react-native-idowe-amap-location.svg)](https://github.com/idowe/react-native-idowe-amap-location/blob/master/LICENSE)
 
 react-native 高德地图-定位SDK 插件, 支持ios与android,
 关于使用高德地图SDK, 申请应用key等详细信息请点击[这里][1]
@@ -12,17 +12,17 @@ Mac下Android Studio中获取SHA1和MD5请点击[这里][3]
 
 ## 预览
 
-![react-native-smart-amap-location-preview-ios][2]
+![react-native-idowe-amap-location-preview-ios][2]
 
 ## 安装
 
 ```
-npm install react-native-smart-amap-location --save
+npm install react-native-idowe-amap-location --save
 ```
 
 ## Notice
 
-这个版本仅支持react-native 0.40及以上, 如果你想使用旧的版本，使用`npm install react-native-smart-amap-location@untilRN0.40 --save`
+这个版本仅支持react-native 0.47及以上, 如果你想使用旧的版本，使用`npm install react-native-smart-amap-location --save`
 
 
 ## 安装 (iOS)
@@ -82,8 +82,8 @@ npm install react-native-smart-amap-location --save
 
 ```
 ...
-include ':react-native-smart-amap-location'
-project(':react-native-smart-amap-location').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-smart-amap-location/android')
+include ':react-native-idowe-amap-location'
+project(':react-native-idowe-amap-location').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-idowe-amap-location/android')
 ```
 
 * 在`android/app/build.gradle`中
@@ -93,7 +93,7 @@ project(':react-native-smart-amap-location').projectDir = new File(rootProject.p
 dependencies {
     ...
     // From node_modules
-    compile project(':react-native-smart-amap-location')
+    compile project(':react-native-idowe-amap-location')
 }
 ```
 
@@ -183,8 +183,8 @@ protected List<ReactPackage> getPackages() {
 
 ## 使用简介
 
-Install the package from npm with `npm install react-native-smart-amap-location --save`.
-Then, require it from your app's JavaScript files with `import Barcode from 'react-native-smart-amap-location'`.
+Install the package from npm with `npm install react-native-idowe-amap-location --save`.
+Then, require it from your app's JavaScript files with `import Barcode from 'react-native-idowe-amap-location'`.
 
 ```js
 import React, {
@@ -201,7 +201,7 @@ import {
     ProgressBarAndroid,
 } from 'react-native'
 
-import AMapLocation from 'react-native-smart-amap-location'
+import AMapLocation from 'react-native-idowe-amap-location'
 import Button from 'react-native-smart-button'
 import AppEventListenerEnhance from 'react-native-smart-app-event-listener-enhance'
 
@@ -377,7 +377,7 @@ export default AppEventListenerEnhance(AMapLocationDemo)
 
 [0]: https://github.com/cyqresig/ReactNativeComponentDemos
 [1]: http://lbs.amap.com/api/
-[2]: http://cyqresig.github.io/img/react-native-smart-amap-location-preview-ios-v1.0.0.gif
+[2]: http://cyqresig.github.io/img/react-native-idowe-amap-location-preview-ios-v1.0.0.gif
 [3]: http://blog.csdn.net/jackymvc/article/details/50222503
 
 

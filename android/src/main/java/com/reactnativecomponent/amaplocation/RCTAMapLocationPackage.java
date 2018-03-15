@@ -20,7 +20,7 @@ public class RCTAMapLocationPackage implements ReactPackage {
         );
     }
 
-    @Override
+    // @Override 兼容0.47以上
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
