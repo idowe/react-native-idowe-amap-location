@@ -65,6 +65,11 @@ public class RCTAMapLocationModule extends ReactContextBaseJavaModule {
         return "AMapLocation";
     }
 
+    @Override
+    public boolean canOverrideExistingModule() {
+        return true;
+    }
+
     @ReactMethod
     public void init(final ReadableMap options) {
         if(locationClient != null) {
